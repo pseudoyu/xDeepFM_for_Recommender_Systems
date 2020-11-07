@@ -1,4 +1,4 @@
-# COMP7404 Group Project - xDeepFM for Recommender Systems
+# xDeepFM for Recommender Systems
 
 eXtreme Deep Factorization Machine ([xDeepFM](https://arxiv.org/abs/1803.05170))
 
