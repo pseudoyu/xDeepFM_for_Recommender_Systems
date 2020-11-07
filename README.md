@@ -28,6 +28,15 @@ I strongly recommmend that you use [Anaconda](https://www.anaconda.com) to imple
 3. Run `pip install -r requirements.txt` to install the package dependencies
 4. Now you can run the code simply through `python main.py`
 
+```zsh
+cd YouPath/xDeepFM_for_Recommender_Systems/exdeepfm
+bash ./.Anaconda3-2020.07-Linux-x86_64.sh
+conda create -n xdeepfm python=3.6
+conda activate xdeepfm
+pip install -r requirements.txt
+python main.py
+```
+
 ### Dependencies
 - absl-py==0.8.1
 - astor==0.8.0
