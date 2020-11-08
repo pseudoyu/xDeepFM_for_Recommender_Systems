@@ -16,13 +16,6 @@ data:
      FEATURE_COUNT : 194081
      data_format : ffm
 
-     train_file  :  data/dnn/train.userid.txt
-     eval_file  :  data/dnn/val.userid.txt
-     test_file  :  data/dnn/test.userid.txt
-
-
-
-
 #model
 #model_type:deepFM or deepWide or dnn or ipnn or opnn or fm or lr
 model:
