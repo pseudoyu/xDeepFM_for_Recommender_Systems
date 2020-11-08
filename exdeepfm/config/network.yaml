@@ -7,7 +7,7 @@ data:
      #test_file  :  data/dnn/test.userid.txt
      
      #real case
-     train_file  :  data/dnn/groupyeval.userid.txt
+     train_file  :  data/dnn/groupytrain.txt
      eval_file  :  data/dnn/groupyeval.userid.txt
      test_file  :  data/dnn/groupytext.userid.txt
      
