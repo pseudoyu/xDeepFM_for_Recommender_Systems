@@ -1,13 +1,27 @@
 #data
 #data format:ffm
 data:
-     train_file  :  data/dnn/train.userid.txt
-     eval_file  :  data/dnn/val.userid.txt
-     test_file  :  data/dnn/test.userid.txt
+     #test case
+     #train_file  :  data/dnn/train.userid.txt
+     #eval_file  :  data/dnn/val.userid.txt
+     #test_file  :  data/dnn/test.userid.txt
+     
+     #real case
+     train_file  :  data/dnn/groupyeval.userid.txt
+     eval_file  :  data/dnn/groupyeval.userid.txt
+     test_file  :  data/dnn/groupytext.userid.txt
+     
      infer_file  :  data/dnn/infer.userid.txt
      FIELD_COUNT :  33
      FEATURE_COUNT : 194081
      data_format : ffm
+
+     train_file  :  data/dnn/train.userid.txt
+     eval_file  :  data/dnn/val.userid.txt
+     test_file  :  data/dnn/test.userid.txt
+
+
+
 
 #model
 #model_type:deepFM or deepWide or dnn or ipnn or opnn or fm or lr
@@ -36,8 +50,8 @@ train:
     learning_rate : 0.0001
     loss : log_loss
     optimizer : adam
-    epochs : 10
-    batch_size : 128
+    epochs : 100
+    batch_size : 1024
 
 #show info
 #metric :'auc','logloss', 'group_auc'
