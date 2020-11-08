@@ -18,7 +18,7 @@ This paper propose a novel Compressed Interaction Network (CIN), which aims to g
 
 ## Running Environment
 
-I strongly recommmend that you use [Anaconda](https://www.anaconda.com) to implement this project. Here is some simple instructions:
+I strongly recommmend that you use [Anaconda](https://www.anaconda.com) to implement this project. Here are some simple instructions:
 1. Download a suitable version ([Windows](https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe)/[MacOS](https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.pkg)/[Linux](https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh))  for your OS and install it (check for latest version from [Anaconda](https://www.anaconda.com))
    1. On Windows or MacOS, you can just use the *.exe* or *.pkg* installer and follow the instructions
    2. On Linux, you may need to run `bash ./.Anaconda3-2020.07-Linux-x86_64.sh` in the same directory of the downloaded *.sh* file to allow the installer to initialize Anaconda3 in your .bashrc
