@@ -7,11 +7,13 @@ data:
      #test_file  :  data/dnn/test.userid.txt
      
      #real case
-     train_file  :  data/dnn/groupytrain.txt
+     #train_file  :  data/dnn/groupytrain.txt
+     train_file  :  data/dnn/groupyeval.userid.txt
      eval_file  :  data/dnn/groupyeval.userid.txt
      test_file  :  data/dnn/groupytext.userid.txt
      
-     infer_file  :  data/dnn/infer.userid.txt
+     #infer_file  :  data/dnn/infer.userid.txt
+     infer_file  :  data/dnn/groupytext.userid.txt
      FIELD_COUNT :  33
      FEATURE_COUNT : 194081
      data_format : ffm

@@ -1,19 +1,19 @@
 #data
 #data format:ffm
 data:
-     train_file  :  data/train.ffm  
-     eval_file  :  data/eval.ffm  
+     train_file  :  data/train.userid.txt
+     eval_file  :  data/eval.userid.txt
      # test_file  : data/test.ffm  
      # infer_file  :  data/test.ffm  
-     FIELD_COUNT :  39
-     FEATURE_COUNT : 2325424
+     FIELD_COUNT : 39
+     FEATURE_COUNT : 8970
      data_format : ffm
 
 #model
 #model_type:deepFM or deepWide or dnn or ipnn or opnn or fm or lr
 model:
     method : classification
-    model_type : exDeepFM
+    model_type : CIN
     dim : 10
     layer_sizes : [400, 400, 400, 400]
     activation : [relu, relu, relu, relu]
@@ -36,7 +36,7 @@ train:
     learning_rate : 0.001
     loss : log_loss
     optimizer : adam
-    epochs : 10
+    epochs : 100
     batch_size : 4096
 
 #show info
