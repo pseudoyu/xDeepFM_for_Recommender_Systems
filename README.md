@@ -2,7 +2,7 @@
 
 eXtreme Deep Factorization Machine ([xDeepFM](https://arxiv.org/abs/1803.05170))
 
-This paper propose a novel Compressed Interaction Network (CIN), which aims to generate feature interactions in an explicit fashion and at the vector-wise level.
+This paper proposes a novel Compressed Interaction Network (CIN), which aims to generate feature interactions in an explicit fashion and at the vector-wise level.
 
 ## Github Repository
 
@@ -10,7 +10,7 @@ This paper propose a novel Compressed Interaction Network (CIN), which aims to g
 
 ## Video Demo
 
-[Video Demo: xDeepFM_for_Recommender_Systems]()
+[YouTube](https://www.youtube.com/watch?v=rFEGAtTZLyQ) | [Google Drive](https://drive.google.com/file/d/1qPx6H9R1b-EDP7HZpAg5bDjkzR8QEHnR/view?usp=sharing)
 
 ## Datasets
 
