@@ -1,6 +1,6 @@
 # xDeepFM for Recommender Systems
 
-eXtreme Deep Factorization Machine ([xDeepFM Paper](https://arxiv.org/abs/1803.05170))
+eXtreme Deep Factorization Machine Paper([xDeepFM Paper](https://arxiv.org/abs/1803.05170))
 
 This paper proposes a novel Compressed Interaction Network (CIN), which aims to generate feature interactions in an explicit fashion and at the vector-wise level.
 
